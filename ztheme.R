@@ -20,6 +20,7 @@ z_theme <- function() {
         # Format the legend, but hide by default
     theme(legend.position="none") +
     theme(legend.background = element_rect(fill=color.background)) +
+    theme(plot.subtitle =element_text(color=color.title, size=9, vjust=1.25))
     theme(legend.text = element_text(size=7,color=color.axis.title)) +
         # Set title and axis labels, and format these and tick marks
     theme(plot.title=element_text(color=color.title, size=20, vjust=1.25)) +
